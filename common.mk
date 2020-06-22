@@ -199,6 +199,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     android.hardware.gatekeeper@1.0.vendor
 
+# GApps permissions
+PRODUCT_COPY_FILES += \
+ $(LOCAL_PATH)/configs/privapp-permissions-gapp.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-gapp.xml
+
 # GPS
 PRODUCT_PACKAGES += \
     android.hardware.gnss.measurement_corrections@1.1.vendor \
