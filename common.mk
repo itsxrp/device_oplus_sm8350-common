@@ -174,6 +174,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     OplusDoze
 
+#CameraGo
+PRODUCT_PACKAGES += \
+    CameraGo
+
 # DRM
 PRODUCT_PACKAGES += \
     android.hardware.drm@1.3.vendor \
