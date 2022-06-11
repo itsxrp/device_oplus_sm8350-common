@@ -18,11 +18,11 @@
 <resources>
 
     <!-- Margin on the left side of the carrier text on Keyguard -->
-    <dimen name="keyguard_carrier_text_margin">50dp</dimen>
+    <dimen name="keyguard_carrier_text_margin">0px</dimen>
 
-    <dimen name="status_bar_padding_start">45.0dp</dimen>
+    <dimen name="status_bar_padding_start">0px</dimen>
 
     <!-- Height of the status bar -->
-    <dimen name="status_bar_height">35dp</dimen>
+    <dimen name="status_bar_height">123px</dimen>
 
 </resources>
