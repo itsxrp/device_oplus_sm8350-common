@@ -102,4 +102,12 @@
         <instance>default</instance>
     </interface>
 </hal>
+<hal format="hidl" optional="true">
+    <name>android.hardware.boot</name>
+    <version>1.0-2</version>
+    <interface>
+        <name>IBootControl</name>
+        <instance>default</instance>
+    </interface>
+</hal>
 </compatibility-matrix>
